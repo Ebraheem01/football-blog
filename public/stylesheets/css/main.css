@@ -39,6 +39,7 @@
 .main-header h1 {
   font-size: 3vw;
   text-transform: uppercase;
+  text-shadow: 6px 3px 8px black;
 }
 .main-header p {
   padding: 2vw;
