@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|ZCOOL+XiaoWei");
+.btn1 {
+  width: 7vw;
+  position: absolute;
+  right: 25vw;
+  bottom: 0.5vw;
+  cursor: pointer;
+}
+
+.btn2 {
+  width: 7vw;
+  position: absolute;
+  right: 17vw;
+  bottom: 0.5vw;
+  cursor: pointer;
+}
+
+.fa-futbol {
+  font-size: 2.5vw;
+}
+
+.main-header {
+  background-image: linear-gradient(#00000096, rgba(0, 0, 0, 0.26)), url(/images/cristiano-ronaldo-3840x2160-fifa-19-e3-2018-2019-games-4k-14358.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.main-header article {
+  font-size: 2vw;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  text-align: center;
+  color: #d1d1d1;
+  font-family: "Dosis", sans-serif;
+}
+.main-header h1 {
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+.main-header p {
+  padding: 2vw;
+  width: 48vw;
+}
+
+.modal-content {
+  height: 60vh;
+}
+
+@media only screen and (max-width: 1440px) {
+  .main-header article {
+    font-size: 2vw;
+    position: absolute;
+    top: 78%;
+    right: 0;
+    text-align: center;
+    color: #d1d1d1;
+    font-family: "Dosis", sans-serif;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
