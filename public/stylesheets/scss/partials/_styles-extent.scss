@@ -3,6 +3,7 @@
   background-size: cover;
   height: 100vh;
   position: relative;
+  background-attachment: fixed;
 
   article {
     font-size: 2vw;
@@ -31,10 +32,22 @@
 }
 
 .content {
+  background-image: linear-gradient(#000000cc, #000000a4) ,url(/images/the-ball-stadion-football-the-pitch-46792.jpeg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  color: white;
+  // font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Nunito', sans-serif;
+
+
   h1 {
     text-align: center;
     height: 6vw;
-    margin-top: 4vw;
+    padding-top: 2vw;
+    text-transform: uppercase;
+
   }
   div {
     width: 1vw;
