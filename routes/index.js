@@ -8,10 +8,12 @@ router.get('/', function(req, res, next) {
 var data = {
   title: "Pro-Soccer",
   posts: Posts,
-  message: false
+  message: false,
 };
 
 res.render('index', data);
 });
+
+
 
 module.exports = router;

@@ -50,6 +50,28 @@
   height: 35vh;
 }
 
+.content h1 {
+  text-align: center;
+  height: 6vw;
+  margin-top: 4vw;
+}
+.content div {
+  width: 1vw;
+  height: 0.1vw;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.content-grid article {
+  text-align: left;
+}
+.content-grid img {
+  width: 633px;
+  height: 347px;
+}
+
 @media only screen and (max-width: 1440px) {
   .main-header article {
     font-size: 2vw;

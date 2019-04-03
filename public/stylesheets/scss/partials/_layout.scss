@@ -1,0 +1,14 @@
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+  article {
+    text-align: left;
+  }
+
+  img {
+    width: 633px;
+    height: 347px;
+
+  }
+}
