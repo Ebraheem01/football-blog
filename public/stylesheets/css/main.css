@@ -86,6 +86,12 @@
   height: 347px;
 }
 
+.sign-inHeader {
+  background-image: url(/images/stadium.jpeg);
+  background-size: cover;
+  height: 100vh;
+}
+
 main {
   height: 100vh;
 }
@@ -93,6 +99,14 @@ main {
 footer {
   text-transform: uppercase;
   text-align: center;
+}
+
+form {
+  padding: 6vw 35vw;
+  color: white;
+}
+form .input {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .content-grid {

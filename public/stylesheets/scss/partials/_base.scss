@@ -8,3 +8,12 @@ footer {
   text-transform: uppercase;
   text-align: center;
 }
+
+form {
+  padding: 6vw 35vw;
+  color: white;
+
+  .input {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}

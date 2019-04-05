@@ -26,5 +26,17 @@
       "description": "The club have lost three of their last four games but their manager praised his side's display in a 2-1 defeat at Wolves. Ole Gunnar Solskjaer praised Manchester United's performance in a 2-1 defeat at Wolves that dents their Champions League qualification hopes but conceded his team made preventable errors. Scott McTominay's first goal for the club put United in front at Molineux, where a victory would have seen Solskjaer's side jump above Arsenal and Tottenham into third in the Premier League.",
       "author": "Ebraheem"
     }
-  ]
+  ],
+
+  "users": [ 
+    {
+    "id" : 1,
+    "email" : "ebraheemseale@gmail.com",
+    "password" : "ebie2008"
+    }
+  ],
+  "profile" : {
+    "name" : "typicode"
+  }
 }
+
