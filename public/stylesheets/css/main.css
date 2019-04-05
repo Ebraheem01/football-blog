@@ -73,18 +73,13 @@
   height: 0.1vw;
 }
 
-.content-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0 2rem;
-}
 .content-grid .border1 {
   border-right: 0.2px solid #8b8989;
   border-left: 0.2px solid #8b8989;
 }
 .content-grid article {
   text-align: left;
-  padding: 0 1vw;
+  padding: 1vw 2vw;
 }
 .content-grid img {
   width: 100%;
@@ -93,6 +88,17 @@
 
 main {
   height: 100vh;
+}
+
+footer {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 2rem;
 }
 
 @media only screen and (max-width: 1440px) {

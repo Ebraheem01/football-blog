@@ -1,13 +1,13 @@
 var express = require('express');
 var router = express.Router();
-var Posts = ('../db.json');
+var Posts = require('../db.json');
 
-/* GET home page. */
+/* GET home parge. */
 router.get('/', function(req, res, next) {
 
 var data = {
   title: "Pro-Soccer",
-  posts: Posts,
+  blog: Posts,
   message: false,
 };
 

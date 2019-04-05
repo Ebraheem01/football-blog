@@ -2,24 +2,5 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   padding: 0 2rem;
-
-  .border1 {
-    border-right: .2px solid rgb(139, 137, 137);
-    border-left: .2px solid rgb(139, 137, 137);
-  }
-
-  article {
-    text-align: left;
-    padding: 0 1vw;
-  }
-
-  img {
-    width: 100%;
-    height: 347px;
-
-  }
 }
 
-main {
-  height: 100vh;
-}
