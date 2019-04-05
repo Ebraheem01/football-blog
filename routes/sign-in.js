@@ -18,28 +18,21 @@ router.post('/', function(req ,res ,next) {
   var logUser = req.body.username;
   var logPassword = req.body.password;
 
-  for(var i = 0; i < users.length; i++) {
-
-    // If user and password are correct 
-    if((users[i].username == logUser || users[i].email == logUser) 
-      && users[i].password == logPassword
-    ) {
 
       // need to create a cookie
-      res.cookie('userId', users[i].id);
+      // res.cookie('userId', users[i].id);
 
       // sets logUser  tothe correct user name
-      logUser = users[i].username;
-      console.log(req.cookies);
+      // logUser = users[i].username;
+      // console.log(req.cookies);
 
       // sets the correct sign in variables
       req.app.locals.user = logUser;
-      req.app.locals.userIndex = i;
+      // req.app.locals.userIndex = i;
       req.app.locals.signError = 'Log In Successful';
       
       // It must redirect to the home page after signed in
       res.redirect('/');
-    };
     
     // Check that the user is signed in correctly 
     if(req.app.locals.user != logUser) {
@@ -48,7 +41,6 @@ router.post('/', function(req ,res ,next) {
       req.app.locals.signInError = 'Username or Password is incorrect';      
     };
     res.redirect('/sign-in');
-  }
-});
 
+  })
 module.exports = router;

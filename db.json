@@ -8,7 +8,6 @@
       "description": "The Blues loanee faces an uncertain future despite being sure of his personal preference. Mateo Kovacic remains in limbo over his future but the player himself wants to stay at Chelsea, even after Zinedine Zidane returned to the Real Madrid dugout, Goal understands.The on-loan star has had no assurances from the Blues hierarchy and a variety of issues need to be resolved before the Croatia international can be signed on a permanent deal. Kovacic has made 41 appearances, without scoring.",
       "author": "Ebraheem"
     },
-
     {
       "id": 2,
       "title": "Being behind Pele in the World Cup record books 'not a problem' for France star Mbappe",
@@ -17,7 +16,6 @@
       "description": "Being second to the legendary Brazilian in the World Cup record books is an honour for the young France star. France and Paris Saint-Germain star Kylian Mbappe is happy to be behind Pele in the World Cup record books. Mbappe, then 19, became the second youngest player to score in a World Cup final when he struck in France's win over Croatia in last year's decider. Pele is the youngest and the pair are the only teenagers to have netted in a decider at the showpiece tournament.",
       "author": "Ebraheem"
     },
-
     {
       "id": 3,
       "title": "Solskjaer bemoans 'sloppy mistakes' from Manchester United in Wolves loss",
@@ -27,16 +25,39 @@
       "author": "Ebraheem"
     }
   ],
-
-  "users": [ 
+  "users": [
     {
-    "id" : 1,
-    "email" : "ebraheemseale@gmail.com",
-    "password" : "ebie2008"
+      "id": 1,
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 2
+    },
+    {
+      "username": "Ebie",
+      "email": "ebraheemseale153@gmail.com",
+      "password": "ebie2008",
+      "id": 3
+    },
+    {
+      "username": "Ebie",
+      "email": "ebraheemseale153@gmail.com",
+      "password": "ebie2008",
+      "id": 4
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 5
     }
   ],
-  "profile" : {
-    "name" : "typicode"
+  "profile": {
+    "name": "typicode"
   }
 }
-
