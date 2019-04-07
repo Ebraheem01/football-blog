@@ -2,7 +2,7 @@
 
 var express = require('express');
 var router = express.Router();
-var db = ('../db.json');
+var users = ('../db.json').users;
 var request = require('request');
 
 var cookieParser = require('cookie-parser');
@@ -25,15 +25,15 @@ router.post('/', function(req ,res ,next) {
 
 
       // need to create a cookie
-      res.cookie('userId', users[i].id);
+      // res.cookie('user', user[i].id);
 
       // sets logUser  tothe correct user name
-      logUser = users[i].username;
+      // logUser = username;
       console.log(req.cookies);
 
       // sets the correct sign in variables
-      req.app.locals.user = logUser;
-      // req.app.locals.userIndex = i;
+      req.app.locals.users === logUser;
+      // req.app.locals.usersIndex = [i];
       req.app.locals.signError = 'Log In Successful';
       
       // It must redirect to the home page after signed in
@@ -53,7 +53,7 @@ router.post('/', function(req ,res ,next) {
       console.log('Signed Cookies: ', req.signedCookies)
     })
     
-    res.redirect('/sign-in');
+    res.redirect('/');
 
   })
 module.exports = router;
