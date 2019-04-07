@@ -6,7 +6,10 @@
       "image": "/images/fdd419dc3c984f50a89ee87626098f45500x500.jpg",
       "date": "03 April 2019",
       "description": "The Blues loanee faces an uncertain future despite being sure of his personal preference. Mateo Kovacic remains in limbo over his future but the player himself wants to stay at Chelsea, even after Zinedine Zidane returned to the Real Madrid dugout, Goal understands.The on-loan star has had no assurances from the Blues hierarchy and a variety of issues need to be resolved before the Croatia international can be signed on a permanent deal. Kovacic has made 41 appearances, without scoring.",
-      "author": "Ebraheem"
+      "description2": "The Blues loanee faces an uncertain future despite being sure of his personal preference. Mateo Kovacic remains in limbo over his future but the player himself wants to stay at Chelsea, even after Zinedine Zidane returned to the Real Madrid dugout, Goal understands.The on-loan star has had no assurances from the Blues hierarchy and a variety of issues need to be resolved before the Croatia international can be signed on a permanent deal. Kovacic has made 41 appearances, without scoring. There is no pre-agreed buy-out clause open to the Blues, meaning they would need to agree on a deal with Los Blancos, though the Spanish capital club are not expected to resist a sale. There is also the future of Maurizio Sarri to consider, which could affect the status of the midfielder's future.",
+      "description3": "The Blues loanee faces an uncertain future despite being sure of his personal preference. Mateo Kovacic remains in limbo over his future but the player himself wants to stay at Chelsea, even after Zinedine Zidane returned to the Real Madrid dugout, Goal understands.The on-loan star has had no assurances from the Blues hierarchy and a variety of issues need to be resolved before the Croatia international can be signed on a permanent deal. Kovacic has made 41 appearances, without scoring. There is no pre-agreed buy-out clause open to the Blues, meaning they would need to agree on a deal with Los Blancos, though the Spanish capital club are not expected to resist a sale. There is also the future of Maurizio Sarri to consider, which could affect the status of the midfielder's future.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
     },
     {
       "id": 2,
@@ -14,7 +17,9 @@
       "image": "/images/kylian-mbappe-france-world-cup-trophy_j4ovvdyw36pv1szg0czbi64an.jpg",
       "date": "03 April 2019",
       "description": "Being second to the legendary Brazilian in the World Cup record books is an honour for the young France star. France and Paris Saint-Germain star Kylian Mbappe is happy to be behind Pele in the World Cup record books. Mbappe, then 19, became the second youngest player to score in a World Cup final when he struck in France's win over Croatia in last year's decider. Pele is the youngest and the pair are the only teenagers to have netted in a decider at the showpiece tournament.",
-      "author": "Ebraheem"
+      "description2": "Being second to the legendary Brazilian in the World Cup record books is an honour for the young France star. France and Paris Saint-Germain star Kylian Mbappe is happy to be behind Pele in the World Cup record books. Mbappe, then 19, became the second youngest player to score in a World Cup final when he struck in France's win over Croatia in last year's decider. Pele is the youngest and the pair are the only teenagers to have netted in a decider at the showpiece tournament.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
     },
     {
       "id": 3,
@@ -22,7 +27,9 @@
       "image": "/images/chris-smalling-manchester-united-2018-19_1dfr2vq62tuu61gpafzc5cxz2a.jpg",
       "date": "03 April 2019",
       "description": "The club have lost three of their last four games but their manager praised his side's display in a 2-1 defeat at Wolves. Ole Gunnar Solskjaer praised Manchester United's performance in a 2-1 defeat at Wolves that dents their Champions League qualification hopes but conceded his team made preventable errors. Scott McTominay's first goal for the club put United in front at Molineux, where a victory would have seen Solskjaer's side jump above Arsenal and Tottenham into third in the Premier League.",
-      "author": "Ebraheem"
+      "description2": "The club have lost three of their last four games but their manager praised his side's display in a 2-1 defeat at Wolves. Ole Gunnar Solskjaer praised Manchester United's performance in a 2-1 defeat at Wolves that dents their Champions League qualification hopes but conceded his team made preventable errors. Scott McTominay's first goal for the club put United in front at Molineux, where a victory would have seen Solskjaer's side jump above Arsenal and Tottenham into third in the Premier League.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
     }
   ],
   "users": [
@@ -55,9 +62,256 @@
       "email": "ebraheemseale@gmail.com",
       "password": "ebie2008",
       "id": 5
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale153@gmail.com",
+      "password": "ebie2008",
+      "id": 6
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale153@gmail.com",
+      "password": "ebie2008",
+      "id": 7
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale153@gmail.com",
+      "password": "",
+      "id": 8
+    },
+    {
+      "username": "Abraham Lincoln",
+      "email": "ab@gmail.com",
+      "password": "ebie2008",
+      "id": 9
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 10
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 11
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 12
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 13
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie200",
+      "id": 14
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 15
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 16
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "eb",
+      "id": 17
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ab@gmail.com",
+      "password": "bbbb",
+      "id": 18
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ab@gmail.com",
+      "password": "bbbb",
+      "id": 19
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "blah ",
+      "id": 20
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "blah ",
+      "id": 21
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 22
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 23
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 24
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 25
+    },
+    {
+      "username": "Ebraheem",
+      "email": "",
+      "password": "ebie2008",
+      "id": 26
+    },
+    {
+      "id": 27
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 28
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "123456",
+      "id": 29
+    },
+    {
+      "username": "bbb",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 30
+    },
+    {
+      "username": "Ebraheem",
+      "email": "ebraheemseale@gmail.com",
+      "password": "ebie2008",
+      "id": 31
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "archive": [
+    {
+      "id": 1,
+      "title": "'Like Van Dijk!' - Emery eyes big summer signings at Arsenal to close gap on Man City & Liverpool",
+      "image": "/images/unai.jpg",
+      "date": "03 April 2019",
+      "description": "Unai Emery admits Arsenal would struggle to splash out £75 million on one player - such as Liverpool did to sign Virgil van Dijk - but says the Gunners must spend this summer to improve their squad.",
+      "description2": "As was shown in January when Arsenal could only bring players in on loan, money is relatively tight in north London, but things will improve ahead of the 2019-20 season thanks to the club’s new commercial deals with Adidas and Emirates.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
+    },
+    {
+      "id": 2,
+      "title": "Transfer news and rumours LIVE: Liverpool looking to replace Mane with Depay",
+      "image": "/images/memphis-depay-lyon-liverpool_dtgmx5m8hng01dfagg0jle5j8.jpg",
+      "date": "03 April 2019",
+      "description": "Liverpool are looking into the possibility of bringing Memphis Depay to the club to replace Sadio Mane.",
+      "description2": "Mane is being touted with a departure to Real Madrid, and the Reds see Lyon star Depay as a suitable replacement with L'Equipe reporting the Netherlands international is eyeing an exit from Lyon this summer. The 25-year-old feels he's done enough to earn a transfer to a bigger European club after some impressive performances in Ligue 1.  ",
+      "author": "Ebraheem",
+      "readMore": "Read More"
+    },
+    {
+      "id": 3,
+      "title": "Man City & Liverpool-linked Insigne casts doubt over Napoli future",
+      "image": "/images/insigne-inter-napoli-serie-a_1b5jzym8c5w5h1dv9rg1d7kove.jpg",
+      "date": "03 April 2019",
+      "description": "The Italy international forward feels he is reaching a pivotal point in his career, which could lead him away from Partenopei in the next window",
+      "description2": "Lorenzo Insigne has cast doubt over his Napoli future by conceding that an offer may come in that he 'can't refuse'. The Italy forward has spent his entire career with Napoli and, following the departure of Marek Hamsik, is now club captain. But Insigne hinted at some unrest by revealing he could be tempted away from the Serie A outfit.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
+    },
+    {
+      "id": 4,
+      "title": "Cruzeiro signs Ronaldinho's 14-year-old son Joao Mendes",
+      "image": "/images/ronaldinho.jpg",
+      "date": "03 April 2019",
+      "description": "Cruzeiro have signed Ronaldinho's 14-year-old son Joao Mendes to a training contract at the club that will run until he is 19 years old. ",
+      "description2": "The agreement was put in place between the club and player on Friday after Mendes had impressed in the club's youth system.He's been playing for Cruzeiro since last year and now looks set for a long stay with the Brazilian side, with the club's director of grassroots football, Amarildo Ribeiro, revealing his best attributes.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
+    },
+    {
+      "id": 5,
+      "title": "Guardiola reveals he wanted to sign 'exceptional' Mata for Barcelona",
+      "image": "/images/juan-mata-manchester-united_eol55hpun7ge1ecz3y1abpt5j.jpg",
+      "date": "03 April 2019",
+      "description": "The Manchester City manager has expressed his admiration for the Manchester United midfielder, who is out of contract at Old Trafford in the summer",
+      "description2": "Pep Guardiola has heaped praise on 'incredible' Manchester United midfielder Juan Mata and revealed he wanted to sign him for Barcelona when he was the manager there.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
+    },
+    {
+      "id": 6,
+      "title": "Could Barcelona timing be perfect for Thomas Partey and Atletico Madrid?",
+      "image": "images/thomas-partey-of-atletico-madrid-uefa-europa-league-semi-final-second-leg-match-between-atletico-madrid-and-arsenal-fc_mmttkbyis6a16bgl3ikabyue.jpg",
+      "date": "03 April 2019",
+      "description": "After the league leaders unexpectedly dropped points at Villarreal in midweek, Partey and co. could land another blow in the title race",
+      "description2": "Atletico Madrid secured a massive lifeline in midweek as Villarreal did themselves and Diego Simeone's club a huge favour by holding Barcelona to a thrilling 4-4 draw. Ernesto Valverde was almost made to rue his decision to leave Lionel Messi out of the classic at El Madrigal, before the Argentine phenom came off the bench to inspire his side to a stoppage-time draw.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
+    },
+    {
+      "id": 7,
+      "title": "'We need him' - Guardiola not angry with 'funny guy' Mendy",
+      "image": "/images/benjamin-mendy-manchester-city-2018-19_i0d45ekrslu91fi1jjzmwx234.jpg",
+      "date": "03 April 2019",
+      "description": "The full-back's off-the-field antics have been highlighted ahead of the FA Cup semi-final, but his manager has no issues with him",
+      "description2": "Pep Guardiola says he is happy with Benjamin Mendy despite questions over the Manchester City left-back's conduct off the pitch. Mendy was reportedly seen out in the early hours local time on Saturday, just hours before kick-off in City's 2-0 Premier League victory away to Fulham.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
+    },
+    {
+      "id": 8,
+      "title": "Salah 'happy and proud to break' Liverpool goalscoring record",
+      "image": "/images/mohamed-salah_1t8kfozlik4tj1p4j7pzhd3qab.jpg",
+      "date": "03 April 2019",
+      "description": "No player has reached 50 Premier League goals for Liverpool faster than the Egypt international, who put his side ahead at St. Mary's on Friday",
+      "description2": "Mohamed Salah said he was happy and proud to break a Liverpool record after ending his drought in a crucial victory over Southampton. Salah put Liverpool ahead with 10 minutes to go at St Mary's Stadium on Friday, with Jordan Henderson adding another in the closing stages to seal a 3-1 win.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
+    },
+    {
+      "id": 9,
+      "title": "Injury-hit De Bruyne admits he can't reach 70-match mark anymore",
+      "image": "/images/kevin-de-bruyne-manchester-city-2018-19_15mthvft8nunm1bdk381jfdbef.jpg",
+      "date": "03 April 2019",
+      "description": "After a campaign interrupted by fitness problems, the midfielder is happy to make any contribution to Manchester City's quadruple charge.",
+      "description2": "Kevin De Bruyne claims he will not return to his best form this season after struggling with a succession of injuries. The 27-year-old has battled ligament and thigh issues in 2018-19, causing him to miss large spells in the first half of the campaign, as well as much of the last month.",
+      "author": "Ebraheem",
+      "readMore": "Read More"
+    }
+  ]
 }

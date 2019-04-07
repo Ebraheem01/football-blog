@@ -27,6 +27,12 @@
   }
 }
 
+.border {
+  p{
+    font-size: 1vw;
+  }
+}
+
 .modal-content { 
   height: 35vh;
 }
@@ -34,12 +40,13 @@
 .content {
   background-image: linear-gradient(#000000cc, #000000a4) ,url(/images/the-ball-stadion-football-the-pitch-46792.jpeg);
   background-size: cover;
-  height: 100vh;
+  height: 123vh;
   position: relative;
   background-attachment: fixed;
   color: white;
   // font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Nunito', sans-serif;
+  padding: 2vw 5vw;
 
 
   h1 {
@@ -49,10 +56,10 @@
     text-transform: uppercase;
 
   }
-  div {
-    width: 1vw;
-    height: .1vw;
-  }
+  // div {
+  //   width: 1vw;
+  //   height: .1vw;
+  // }
 }
 
 .content-grid {
@@ -62,7 +69,7 @@
   }
 
   article {
-    text-align: left;
+    // text-align: left;
     padding: 1vw 2vw;
   }
 
@@ -79,5 +86,35 @@
   background-size: cover;
   height: 100vh;
 }
+
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content2 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f100;
+
+  p{
+    font-size: 1vw;
+  }
+}
+
+
 
 

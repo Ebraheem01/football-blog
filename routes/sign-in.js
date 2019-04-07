@@ -2,8 +2,13 @@
 
 var express = require('express');
 var router = express.Router();
-var db = ('../db.json').users;
+var db = ('../db.json');
 var request = require('request');
+
+var cookieParser = require('cookie-parser');
+ 
+var app = express()
+app.use(cookieParser())
 
 // Getting the sign-in page 
 
@@ -20,11 +25,11 @@ router.post('/', function(req ,res ,next) {
 
 
       // need to create a cookie
-      // res.cookie('userId', users[i].id);
+      res.cookie('userId', users[i].id);
 
       // sets logUser  tothe correct user name
-      // logUser = users[i].username;
-      // console.log(req.cookies);
+      logUser = users[i].username;
+      console.log(req.cookies);
 
       // sets the correct sign in variables
       req.app.locals.user = logUser;
@@ -40,6 +45,14 @@ router.post('/', function(req ,res ,next) {
       // If details are incorrect
       req.app.locals.signInError = 'Username or Password is incorrect';      
     };
+    app.get('/', function (req, res) {
+      // Cookies that have not been signed
+      console.log('Cookies: ', req.cookies)
+     
+      // Cookies that have been signed
+      console.log('Signed Cookies: ', req.signedCookies)
+    })
+    
     res.redirect('/sign-in');
 
   })

@@ -50,7 +50,7 @@ router.post('/', function(req,res,next){
 // Post request
 
 request({
-  url: 'localhost:3004',
+  url: 'localhost:3000',
   method: Posts,
   form: {
     id : 'id',

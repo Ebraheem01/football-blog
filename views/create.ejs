@@ -32,7 +32,7 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/create">New</a>
+                  <a class="nav-link" href="#">New</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/archive">Archive</a>
@@ -50,70 +50,7 @@
 
       <article>   
         <h1><%= title %></h1>
-        <p>Welcome to <%= title %>, where you can create your own posts.</p>
+        <p>Welcome to <%= title %>, all the latest news and rumours right here.</p>
  
      </article> 
     </header>
-
-    <main class="content">
-
-      <h1>Featured Posts</h1>
-      
-      <section class="content-grid">
-
-        <% blog.posts.forEach(function (item) { %>
-
-          <article class="border">
-            <img src="<%= item.image %>" alt="">
-            <h2 class="click2edit"><%= item.title%></h2>
-            <!-- <p class="click2edit"><%= item.description %></p> -->
-            <button class="collapsible">Read Article</button>
-            <div class="content2">
-              <p class="click2edit">
-                  <%= item.description %>
-              </p>
-              <p class="click2edit">
-                <%= item.description2 %>
-              </p>
-              <p class="click2edit">
-                  <%= item.description3 %>
-                </p>
-            </div>
-            <h5 class="click2edit"><%= item.date %></h5>
-            <h6 class="click2edit"><%= item.author %></h6>
-            
-            <button id="edit" class="btn btn-primary btn3" onclick="edit()" type="button">Edit</button>
-            <button id="save" class="btn btn-primary btn3" onclick="save()" type="button">Save</button>
-                
-          </article>
-
-        <% }); %>
-
-      </section>
-    </main>
-    
-    <footer>
-      <h3>&copy; Ebraheem Seale</h3>
-    </footer>
-
-
-    <script src="/js/summernote.js"></script>
-    
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
-        }
-        </script>
-  </body>
-</html>

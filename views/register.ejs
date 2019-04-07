@@ -27,7 +27,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item ">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -50,22 +50,22 @@
           <form action="http://localhost:3000/users" method="POST">
               <div class="form-group">
                   <label for="exampleInputPassword1">Username</label>
-                  <input type="text" class="form-control input" id="id" name="username" placeholder="Username">
+                  <input type="text" class="form-control input" id="id" name="username" placeholder="Username" required>
               </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control input" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" class="form-control input" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
               </div>
               <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control input" id="password" name="password" placeholder="Password">
+                <input type="password" class="form-control input" id="password" name="password" placeholder="Password" required>
               </div>
               <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Remember Me</label>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary"> Submit </button>
             </form>
    </header>       
 
