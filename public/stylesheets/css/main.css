@@ -55,6 +55,10 @@
   width: 48vw;
 }
 
+.navbar {
+  z-index: 1;
+}
+
 .navbar-brand {
   float: left;
   height: 50px;
@@ -284,15 +288,26 @@ form .input {
     right: 3%;
   }
 
+  .archive {
+    display: block;
+  }
+  .archive h2 {
+    font-size: 4vw;
+  }
+  .archive p {
+    font-size: 2.5vw;
+  }
+
   .btn1 {
     bottom: 1.8vw;
-    width: 17vw;
+    width: 20vw;
+    left: 52vw;
   }
 
   .btn2 {
     bottom: 1.8vw;
-    width: 18vw;
-    right: 11vw;
+    width: 22vw;
+    right: 3vw;
   }
 
   .content-grid {
@@ -319,14 +334,23 @@ form .input {
   .modal p {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 2.4vw;
+    font-size: 3.3vw;
   }
   .modal h4 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .modal .modal-image {
     width: 64vw;
     margin: 0.5vw 0vw;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .content h1 {
+    text-align: center;
+    height: 18vw;
+    padding-top: 2vw;
+    text-transform: uppercase;
+    font-size: 7vw;
   }
 }
 

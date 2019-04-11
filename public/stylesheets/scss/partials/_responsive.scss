@@ -119,14 +119,27 @@
         
     }
 
+    .archive {
+        display: block;
+
+        h2 {
+            font-size: 4vw;
+        }
+        
+        p {
+            font-size: 2.5vw;
+        }
+    }
+
     .btn1 {
         bottom: 1.8vw;
-        width: 17vw;
+        width: 20vw;
+        left: 52vw;
     }
     .btn2 {
         bottom: 1.8vw;
-        width: 18vw;
-        right: 11vw;
+        width: 22vw;
+        right: 3vw;
     }
 
     .content-grid {
@@ -170,3 +183,12 @@
     }
 }
     
+@media only screen and (max-width:375px) {
+    .content h1 {
+        text-align: center;
+        height: 18vw;
+        padding-top: 2vw;
+        text-transform: uppercase;
+        font-size: 7vw;
+    }
+}
