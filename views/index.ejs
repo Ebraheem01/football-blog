@@ -9,14 +9,21 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fontawesome.com/icons/futbol?style=solid">
-        <!-- include libraries(jQuery, bootstrap) -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+     
+
+        <!-- Remember to include jQuery :) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
     <!-- include summernote css/js -->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.css" rel="stylesheet">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
   </head>
   <body>
 
@@ -32,7 +39,7 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/create">New</a>
+                  <a class="nav-link" href="#">New</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/archive">Archive</a>
@@ -47,12 +54,12 @@
               </ul>
             </div>
           </nav>
-
+          
       <article>   
         <h1><%= title %></h1>
-        <p>Welcome to <%= title %>, where you can create your own posts.</p>
- 
-     </article> 
+        <p>Welcome to <%= title %>, all football news and rumors right here.</p>
+      </article>
+
     </header>
 
     <main class="content">
@@ -63,29 +70,26 @@
 
         <% blog.posts.forEach(function (item) { %>
 
-          <article class="border">
+          <article class="image" data-aos="fade-down">
             <img src="<%= item.image %>" alt="">
-            <h2 class="click2edit"><%= item.title%></h2>
-            <!-- <p class="click2edit"><%= item.description %></p> -->
-            <button class="collapsible">Read Article</button>
-            <div class="content2">
-              <p class="click2edit">
-                  <%= item.description %>
-              </p>
-              <p class="click2edit">
-                <%= item.description2 %>
-              </p>
-              <p class="click2edit">
-                  <%= item.description3 %>
-                </p>
-            </div>
-            <h5 class="click2edit"><%= item.date %></h5>
-            <h6 class="click2edit"><%= item.author %></h6>
-            
-            <button id="edit" class="btn btn-primary btn3" onclick="edit()" type="button">Edit</button>
-            <button id="save" class="btn btn-primary btn3" onclick="save()" type="button">Save</button>
-                
           </article>
+
+          <article class="info" data-aos="fade-up">
+            <h2><%= item.title %></h2>
+            <h4> <%= item.date %> </h4>
+            <h3> <%= item.description %></h3>
+            <a href="#ex3" rel="modal:open"><button type="button" class="btn btn-primary btn-lg"> <%= item.readMore %></button></a> 
+          </article>
+
+         <!-- Modal HTML embedded directly into document -->
+          <div id="ex3" class="modal">
+            <img class="modal-image" src="<%= item.image %>" alt="">
+            <h4> <%= item.title %></h4>
+            <p><%= item.description2 %></p>
+            <h5><%= item.date %></h5>
+            <h5><%= item.author %></h5>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
 
         <% }); %>
 
@@ -100,20 +104,9 @@
     <script src="/js/summernote.js"></script>
     
     <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
-        }
-        </script>
+        AOS.init({
+            duration: 2000,
+        })
+    </script>
   </body>
 </html>
