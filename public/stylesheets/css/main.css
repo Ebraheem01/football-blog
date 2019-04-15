@@ -7,73 +7,64 @@
   width: 7vw;
   position: absolute;
   right: 25vw;
-  bottom: 0.5vw;
-  cursor: pointer;
-}
+  bottom: .5vw;
+  cursor: pointer; }
 
 .btn2 {
   width: 7vw;
   position: absolute;
   right: 17vw;
-  bottom: 0.5vw;
-  cursor: pointer;
-}
+  bottom: .5vw;
+  cursor: pointer; }
 
 .btn3 {
   height: 2vw;
   width: 4vw;
-  font-size: 0.7vw;
-}
+  font-size: .7vw; }
 
 .fa-futbol {
-  font-size: 2.5vw;
-}
+  font-size: 2.5vw; }
 
 .main-header {
   background-image: linear-gradient(#00000096, rgba(0, 0, 0, 0.26)), url(/images/cristiano-ronaldo-3840x2160-fifa-19-e3-2018-2019-games-4k-14358.jpg);
   background-size: cover;
   height: 100vh;
   position: relative;
-  background-attachment: fixed;
-}
-.main-header article {
-  font-size: 2vw;
-  position: absolute;
-  top: 40%;
-  right: 0;
-  text-align: center;
-  color: #d1d1d1;
-  font-family: "Dosis", sans-serif;
-}
-.main-header h1 {
-  font-size: 3vw;
-  text-transform: uppercase;
-  text-shadow: 6px 3px 8px #1f1f1f;
-}
-.main-header p {
-  padding: 2vw;
-  width: 48vw;
-}
+  background-attachment: fixed; }
+  .main-header article {
+    font-size: 2vw;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    text-align: center;
+    color: #d1d1d1;
+    font-family: 'Dosis', sans-serif; }
+  .main-header h1 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-shadow: 6px 3px 8px #1f1f1f; }
+  .main-header p {
+    padding: 2vw;
+    width: 48vw; }
 
 .navbar {
-  z-index: 1;
-}
+  z-index: 1; }
 
 .navbar-brand {
   float: left;
   height: 50px;
   padding: 0px 15px !important;
   font-size: 18px;
-  line-height: 20px;
-}
+  line-height: 20px; }
 
 .border p {
-  font-size: 1vw;
-}
+  font-size: 1vw; }
 
 .modal-content {
-  height: 35vh;
-}
+  height: 35vh; }
+
+.modal {
+  overflow-y: scroll !important; }
 
 .content {
   background-image: linear-gradient(#000000cc, #000000a4), url(/images/the-ball-stadion-football-the-pitch-46792.jpeg);
@@ -82,33 +73,27 @@
   position: relative;
   background-attachment: fixed;
   color: white;
-  font-family: "Nunito", sans-serif;
-  padding: 2vw 5vw;
-}
-.content h1 {
-  text-align: center;
-  height: 6vw;
-  padding-top: 2vw;
-  text-transform: uppercase;
-}
+  font-family: 'Nunito', sans-serif;
+  padding: 2vw 5vw; }
+  .content h1 {
+    text-align: center;
+    height: 6vw;
+    padding-top: 2vw;
+    text-transform: uppercase; }
 
 .content-grid .border1 {
   border-right: 0.2px solid #8b8989;
-  border-left: 0.2px solid #8b8989;
-}
+  border-left: 0.2px solid #8b8989; }
 .content-grid article {
-  padding: 1vw 2vw;
-}
+  padding: 1vw 2vw; }
 .content-grid img {
   width: 100%;
-  height: 347px;
-}
+  height: 347px; }
 
 .sign-inHeader {
   background-image: url(/images/stadium.jpeg);
   background-size: cover;
-  height: 100vh;
-}
+  height: 100vh; }
 
 .collapsible {
   background-color: #777;
@@ -119,239 +104,211 @@
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 .active, .collapsible:hover {
-  background-color: #555;
-}
+  background-color: #555; }
 
 .content2 {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f100;
-}
-.content2 p {
-  font-size: 1vw;
-}
+  background-color: #f1f1f100; }
+  .content2 p {
+    font-size: 1vw; }
 
 .modal a.close-modal {
   position: absolute;
   top: 3.5px !important;
-  right: 5.5px !important;
-}
+  right: 5.5px !important; }
 
 .modal-image {
-  width: 22vw;
-}
+  width: 22vw; }
 
 body {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 main {
-  height: 100vh;
-}
+  height: 100vh; }
 
 footer {
   text-transform: uppercase;
-  text-align: center;
-}
+  text-align: center; }
 
 form {
   padding: 6vw 35vw;
-  color: white;
-}
-form .input {
-  background-color: rgba(255, 255, 255, 0);
-}
+  color: white; }
+  form .input {
+    background-color: rgba(255, 255, 255, 0); }
 
 .content-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  padding: 0 2rem;
-}
+  padding: 0 2rem; }
 
 .archive {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 1rem 2rem;
-}
+  padding: 1rem 2rem; }
 
 @media only screen and (max-width: 2600px) {
   .modal-content {
-    height: 70vh;
-  }
+    height: 70vh; }
 
   .border {
-    padding: 2vw;
-  }
-  .border img {
-    width: 100%;
-    height: auto;
-  }
-}
+    padding: 2vw; }
+    .border img {
+      width: 100%;
+      height: auto; } }
 @media only screen and (max-width: 1440px) {
   .main-header article {
-    top: 78%;
-    right: 0;
-  }
-}
+    top: 50%;
+    right: 0; }
+
+  .content {
+    height: 235vh; } }
 @media only screen and (max-width: 1024px) {
   .main-header article {
     top: 75%;
-    right: 5%;
-  }
+    right: 5%; }
+
+  .content-grid {
+    margin-top: 4vw; }
 
   .navbar-brand {
-    margin-top: 2vw;
-  }
+    margin-top: 2vw; }
 
   .btn1 {
     bottom: 1.8vw;
-    width: 8vw;
-  }
+    width: 8vw; }
 
   .btn2 {
     bottom: 1.8vw;
     width: 9vw;
-    right: 15vw;
-  }
+    right: 15vw; }
 
   .border p {
-    font-size: 1.5vw;
-  }
+    font-size: 1.5vw; }
 
   .content {
-    height: 225vh;
-  }
+    height: 225vh; }
 
   .modal-image {
-    width: 41vw;
-  }
+    width: 41vw; }
 
   .info h2 {
-    font-size: 2vw;
-  }
-}
+    font-size: 2vw; } }
 @media only screen and (max-width: 768px) {
   .main-header {
     background-image: url(/images/messi.jpg);
     background-size: cover;
-    background-position: right;
-  }
-  .main-header h1 {
-    font-size: 6vw;
-  }
-  .main-header article {
-    font-size: 2.2vw;
-    top: 30%;
-    right: 5%;
-  }
+    background-position: right; }
+    .main-header h1 {
+      font-size: 6vw; }
+    .main-header article {
+      font-size: 2.2vw;
+      top: 30%;
+      right: 5%; }
 
   .content {
-    height: 295vh;
-  }
+    height: 320vh; }
+
+  .modal-image {
+    width: 55vw; }
 
   .content-grid {
     display: block;
-    margin: 4vw;
-  }
+    margin: 4vw; }
 
   .btn1 {
     bottom: 1.8vw;
-    width: 10vw;
-  }
+    width: 10vw; }
 
   .btn2 {
     bottom: 1.8vw;
     width: 11vw;
-    right: 11vw;
-  }
-}
+    right: 11vw; } }
 @media only screen and (max-width: 425px) {
   .main-header {
     background-image: url(/images/aguero.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .main-header h1 {
-    font-size: 8vw;
-  }
-  .main-header article {
-    font-size: 3.2vw;
-    top: 23%;
-    right: 3%;
-  }
+    background-repeat: no-repeat; }
+    .main-header h1 {
+      font-size: 8vw; }
+    .main-header article {
+      font-size: 3.2vw;
+      top: 23%;
+      right: 3%; }
 
   .archive {
-    display: block;
-  }
-  .archive h2 {
-    font-size: 4vw;
-  }
-  .archive p {
-    font-size: 2.5vw;
-  }
+    display: block; }
+    .archive h2 {
+      font-size: 4vw; }
+    .archive p {
+      font-size: 2.5vw; }
 
   .btn1 {
     bottom: 1.8vw;
     width: 20vw;
-    left: 52vw;
-  }
+    left: 52vw; }
 
   .btn2 {
     bottom: 1.8vw;
     width: 22vw;
-    right: 3vw;
-  }
+    right: 3vw; }
 
   .content-grid {
-    margin: 10vw 0vw;
-  }
-  .content-grid img {
-    width: 100%;
-    height: 200px;
-  }
-  .content-grid article {
-    padding: 5vw 2vw;
-  }
+    margin: 10vw 0vw; }
+    .content-grid img {
+      width: 100%;
+      height: 200px; }
+    .content-grid article {
+      padding: 5vw 2vw; }
+
+  .content {
+    height: 340vh; }
 
   .info h2 {
-    font-size: 5vw;
-  }
+    font-size: 5vw; }
   .info h3 {
-    font-size: 4vw;
-  }
+    font-size: 4vw; }
 
   .modal {
-    overflow-y: scroll;
-  }
-  .modal p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 3.3vw;
-  }
-  .modal h4 {
-    font-size: 4vw;
-  }
-  .modal .modal-image {
-    width: 64vw;
-    margin: 0.5vw 0vw;
-  }
-}
+    overflow-y: scroll; }
+    .modal p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 3.3vw; }
+    .modal h4 {
+      font-size: 4vw; }
+    .modal .modal-image {
+      width: 64vw;
+      margin: 0.5vw 0vw; } }
 @media only screen and (max-width: 375px) {
   .content h1 {
     text-align: center;
     height: 18vw;
     padding-top: 2vw;
     text-transform: uppercase;
-    font-size: 7vw;
-  }
-}
+    font-size: 7vw; }
+
+  .content {
+    height: 350vh; } }
+@media only screen and (max-width: 375px) {
+  .content {
+    height: 360vh; }
+
+  .btn1 {
+    bottom: 1.8vw;
+    width: 22vw;
+    left: 45vw; }
+
+  .btn2 {
+    bottom: 1.8vw;
+    width: 26vw;
+    right: 3vw; } }
 
 /*# sourceMappingURL=main.css.map */
