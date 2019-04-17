@@ -7,7 +7,7 @@ var request = require('request');
 
 router.get('/', function(req ,res,next){
   res.render('create', {
-    title: 'Create Page'
+    title: 'New Posts'
   });
 });
 
